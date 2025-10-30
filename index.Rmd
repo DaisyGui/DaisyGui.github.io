@@ -1,0 +1,13 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+### Links 
+[Github](https://github.com/DaisyGui)
+[Email](yg3099@cumc.columbia.edu)
+[LinkedIn](https://www.linkedin.com/in/yundi-gui/)
