@@ -6,6 +6,7 @@ output:
     toc_float: true
     theme: cerulean
 ---
+# Problem 1
 
 This is the personal website of Daisy Gui.
 
@@ -22,3 +23,8 @@ You can find my academic and professional experience, as well as links to my acc
 [Email](yg3099@cumc.columbia.edu)
 
 [LinkedIn](https://www.linkedin.com/in/yundi-gui/)
+
+# Problem 2
+
+[Problem 2](prob2.html)
+

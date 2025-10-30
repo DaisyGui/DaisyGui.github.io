@@ -1,0 +1,21 @@
+---
+title: "prob2"
+author: "daisy_gui"
+date: "2025-10-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data(nyc_airbnb)
+
+airbnb_df = nyc_airbnb %>%
+  filter(neighbourhood_group == "Bronx",
+         room_type == "Entire home/apt")
+```
+
