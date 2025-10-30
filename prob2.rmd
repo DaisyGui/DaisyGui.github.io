@@ -11,7 +11,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-This is a dataset on airbnb in NYC. Only entire home/apt in Bronx is filtered. 
+This is a dataset on airbnb in NYC. Only entire home/apt in Bronx which price is lower than $1000 is filtered. 
 
 ```{r}
 data(nyc_airbnb)
@@ -27,11 +27,19 @@ This code plots a scatter plot on review_score_location and number of views.The 
 
 ```{r}
 plot_ly(
-  airbnb_df, x = ~number_of_reviews, y = ~review_scores_location, type = "scatter", mode = "markers", color = ~price, alpha = 0.5
+  airbnb_df, 
+  x = ~number_of_reviews, y = ~review_scores_location, 
+  type = "scatter", mode = "markers", color = ~price, alpha = 0.5
 )
 ```
 
-```{r}
+This boxplot below shows nuber of reviews of airbnb in different neighbourhoods in Bronx. 
 
+```{r}
+plot_ly(
+  airbnb_df,
+  y = ~number_of_reviews, 
+  color = ~neighbourhood, type = "box"
+  )
 ```
 
