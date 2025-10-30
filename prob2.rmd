@@ -43,3 +43,16 @@ plot_ly(
   )
 ```
 
+This barchart shows the review per month in different neibourhood in bronx of popular airbnbs which have more than 5 reviews per month. 
+
+```{r}
+pop_airbnb = filter(airbnb_df, reviews_per_month > 5)
+
+plot_ly(
+  pop_airbnb, 
+  x = ~reviews_per_month, y = ~neighbourhood, 
+  color = ~neighbourhood, type = "bar", 
+  orientation = "h"
+        )
+```
+
