@@ -11,9 +11,12 @@ This is the personal website of Daisy Gui.
 
 You can find my academic and professional experience, as well as links to my accounts on here. 
 
+## My academic and professional experience
 
+[Experiences](experiences.html)
 
-### Links 
+## Links to my accounts
+
 [Github](https://github.com/DaisyGui)
 
 [Email](yg3099@cumc.columbia.edu)

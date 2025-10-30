@@ -1,0 +1,51 @@
+---
+title: "experiences"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Shanhai Henlius Biotech, Inc. 
+
+### Biostatistics Intern June 2025 – Aug 2025
+
+Contributed to the optimization and extension of the company’s clinical data visualization platform.
+
+Adapted an existing R Shiny-based visualization tool for application to another clinical study, enabling cross-trial usability.
+
+Applied SAS to process from raw data through SDTM and ADaM for demographic summaries and Kaplan-Meier survival analyses.
+
+Supported data analysis and visualization tasks, providing biostatistical assistance to the research team.
+
+Experienced the company’s FDA on-site inspection process firsthand, gaining deeper insight into regulatory compliance in biostatistics and clinical trials.
+
+
+## Online Research: Data Science Methods and Applications in Public Health and Bio-medicine
+
+### Co-Author, Researcher Jul 2022 – Sep 2022
+
+Conducted statistical analysis using R on the SWAN dataset under the guidance of Professor Shuangge Ma (Yale University) to investigate depression risk factors in menopausal women.
+
+Identified key predictors such as stress level, maternal stress, age, financial situation, and family health eventsthrough logistic regression modeling.
+
+Performed data preprocessing and feature selection to improve analytical accuracy and model reliability.
+
+Developed heatmaps and data visualizations to assess variable correlations and validate statistical significance.
+
+Research findings were presented at the 2nd International Conference on Biological Engineering and Medical Science (ICBioMed 2022).
+
+## JAK3 Inhibitor Optimization and PBPK Modeling for Rheumatoid Arthritis Treatment
+
+### Project for course Biopharmaceutics Sep 2023 – Apr 2024
+
+Designed and optimized JAK3-selective inhibitors using CB-Dock, improving selectivity and binding affinity.
+
+Evaluated Lipinski’s Rule of Five, drug-likeness, and JAK1 off-target effects to ensure drug feasibility.
+
+Performed PBPK modeling in GastroPlus to predict the pharmacokinetics of Tofacitinib and compare simulated data with experimental results.
+
+Assessed bioavailability, absorption, and metabolism of Tofacitinib using solubility and permeability studies.
+
+Investigated the impact of extended-release formulations (11mg XR tablets) on drug absorption and efficacy.
