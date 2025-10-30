@@ -33,11 +33,13 @@ plot_ly(
 )
 ```
 
-This boxplot below shows nuber of reviews of airbnb in different neighbourhoods in Bronx. 
+This boxplot below shows numbers of reviews of airbnb with >30 reveiws in different neighbourhoods in Bronx. 
 
 ```{r}
+high_review = filter(airbnb_df, number_of_reviews > 30)
+
 plot_ly(
-  airbnb_df,
+  high_review,
   y = ~number_of_reviews, 
   color = ~neighbourhood, type = "box"
   )
